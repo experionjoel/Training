@@ -5,9 +5,9 @@ class Factoral
 {
 	public static void main(String args[])
 	{
-		int i, j, f=1, n = 5;
+		int i, j, f=1, n;
 		System.out.println("Enter limit: ");
-		int num = Integer.parseInt(System.console().readLine());
+		int n = Integer.parseInt(System.console().readLine());
 		for(i=1;i<=n;i++)
 		{ f = f * i;}
 		System.out.println("factorial of "+n+" is "+f);
